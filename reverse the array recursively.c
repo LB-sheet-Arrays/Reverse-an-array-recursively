@@ -1,5 +1,8 @@
 //use two pointers and recursively increment them
 
+//TC => O(n/2) = O(n) bcoz only half array is traversed
+//SC => O(n/2) = O(n) bcoz a stack is used due to recursion. 
+
 #include<stdio.h>
 
 void reverse_array(int a[],int left,int right)
